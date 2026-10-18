@@ -1,0 +1,153 @@
+{
+  "cleaning_log": {
+    "raw_rows": 154635,
+    "final_rows": 154502,
+    "removed_rows": 133
+  },
+  "rows": 154502,
+  "date_min": "1998-06-22 00:00:00",
+  "date_max": "2013-03-03 00:00:00",
+  "avg_rating": 4.239660328021643,
+  "mismatch_rate": 0.055235530931638424,
+  "mismatch_test": {
+    "table": {
+      "negative": {
+        "negative": 4692,
+        "neutral": 858,
+        "positive": 1447
+      },
+      "neutral": {
+        "negative": 9107,
+        "neutral": 3733,
+        "positive": 19571
+      },
+      "positive": {
+        "negative": 7087,
+        "neutral": 5793,
+        "positive": 102214
+      }
+    },
+    "chi2": 32232.36594887211,
+    "p_value": 0.0,
+    "dof": 4,
+    "phi": 0.45675050873380885
+  },
+  "sentiment_rating_effect": {
+    "positive_n": 115094,
+    "negative_n": 6997,
+    "positive_mean_rating": 4.54265209307175,
+    "negative_mean_rating": 2.1510647420322995,
+    "u_stat": 706802216.0,
+    "p_value": 0.0,
+    "standardized_effect": 1.9462133949699416
+  },
+  "model_classification_report": {
+    "negative": {
+      "precision": 0.7412293853073463,
+      "recall": 0.9152165864494631,
+      "f1-score": 0.8190854870775348,
+      "support": 2701.0
+    },
+    "positive": {
+      "precision": 0.985064892715059,
+      "recall": 0.9459510239869732,
+      "f1-score": 0.965111821086262,
+      "support": 15967.0
+    },
+    "accuracy": 0.9415041782729805,
+    "macro avg": {
+      "precision": 0.8631471390112027,
+      "recall": 0.9305838052182182,
+      "f1-score": 0.8920986540818985,
+      "support": 18668.0
+    },
+    "weighted avg": {
+      "precision": 0.9497852856061973,
+      "recall": 0.9415041782729805,
+      "f1-score": 0.9439838412192397,
+      "support": 18668.0
+    }
+  },
+  "top_negative_terms": [
+    {
+      "term": "like",
+      "count": 3846
+    },
+    {
+      "term": "bad",
+      "count": 3479
+    },
+    {
+      "term": "taste",
+      "count": 3471
+    },
+    {
+      "term": "product",
+      "count": 2605
+    },
+    {
+      "term": "just",
+      "count": 2402
+    },
+    {
+      "term": "tea",
+      "count": 1824
+    },
+    {
+      "term": "flavor",
+      "count": 1714
+    },
+    {
+      "term": "don",
+      "count": 1693
+    },
+    {
+      "term": "amazon",
+      "count": 1247
+    },
+    {
+      "term": "buy",
+      "count": 1202
+    },
+    {
+      "term": "really",
+      "count": 1195
+    },
+    {
+      "term": "box",
+      "count": 1172
+    },
+    {
+      "term": "stale",
+      "count": 1171
+    },
+    {
+      "term": "money",
+      "count": 1104
+    },
+    {
+      "term": "time",
+      "count": 1100
+    },
+    {
+      "term": "bought",
+      "count": 1078
+    },
+    {
+      "term": "tried",
+      "count": 1033
+    },
+    {
+      "term": "better",
+      "count": 1010
+    },
+    {
+      "term": "ve",
+      "count": 1005
+    },
+    {
+      "term": "terrible",
+      "count": 996
+    }
+  ]
+}
